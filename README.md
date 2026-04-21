@@ -39,23 +39,28 @@ python run_multistep_rollout.py \
   --device cpu
 ```
 
-### 3) Re-draw Pred-vs-GT figures from outputs
+### 3) Re-draw prediction figures from outputs
 
 Open and run notebook:
 
-- `reviewer_case635_plots.ipynb`
+- `case635_plots.ipynb` (or `reviewer_case635_plots.ipynb` if you keep the old filename locally)
 
 Recommended run order in notebook:
 
 1. Cell 2 (config)
 2. Cell 3 (inference)
-3. Cell 4 (BASE re-draw: +6h/+12h/+24h and GT)
-4. Cell 5 (4STEP re-draw: +6h/+12h/+24h and GT)
+3. Cell 4 (BASE prediction re-draw: +6h/+12h/+24h)
+4. Cell 5 (4STEP prediction re-draw: +6h/+12h/+24h)
+
+Notes:
+
+- The plotting cells now only visualize wheel output predictions.
+- The notebook no longer imports helper modules from `notebooks/`.
 
 Generated figures:
 
-- `case_origin_0635_20220608T180000/pred_vs_gt_wheel_case635_base.png`
-- `case_origin_0635_20220608T180000/pred_vs_gt_wheel_case635_4step.png`
+- `case_origin_0635_20220608T180000/pred_vs_gt_wheel_case635_base.png` (filename kept for compatibility; content is prediction-only)
+- `case_origin_0635_20220608T180000/pred_vs_gt_wheel_case635_4step.png` (filename kept for compatibility; content is prediction-only)
 
 ## Folder Contents
 

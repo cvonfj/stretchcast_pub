@@ -1,4 +1,5 @@
 # StretchCast (Wheel Runtime Bundle)
+The open inference libaray for "StretchCast: Global-Regional AI Weather Forecasting on Stretched Cubed-Sphere Mesh" [https://arxiv.org/abs/2603.27288]
 
 This folder contains the wheel-based inference runtime and scripts for case `case_origin_0635_20220608T180000`.
 One can also get the Baidu Disk version with all codes and inference data at https://pan.baidu.com/s/19Ls7W6EyKXrCwO3vvoLiXg?pwd=ide7
